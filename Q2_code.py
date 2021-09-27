@@ -3,6 +3,7 @@ import json
 import pandas as pd
 import requests
 
+#understand that some changes happen
 # Pulling in high-level market data - unique to symbol:
 response_API = requests.get('https://aave-api-v2.aave.com/data/markets-data')
 markets_data = response_API.text
